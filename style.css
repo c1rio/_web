@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #000;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    font-size: 1.5vh;
+    height: 6vh;
+    padding-left: 40vh;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #999;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar-links {
+      padding-left: 120px;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    color: #fff;
+  }
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /*scroll-snap-align: start;*/
+}
+
+.container{
+    /*scroll-snap-type: y mandatory;
+    overflow-y: scroll;*/
+    height: 100vh;
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+.fechas {
+    background: rgb(211, 79, 79);
+}
+
+.viejo {
+    background: rgb(67, 91, 175);
+}
+
+.discografia {
+    background: lightsalmon;
+}
+
+.footer {
+    background: #333;
+    height: 45vh;
+}
