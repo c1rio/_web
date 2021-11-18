@@ -54,6 +54,10 @@
     color: #fff;
   }
 
+.fab {
+    color:#fff;
+}
+
 section {
     height: 100vh;
     display: flex;
